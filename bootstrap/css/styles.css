@@ -1,0 +1,110 @@
+body{
+    margin: unset;
+}
+.header{
+    display: flex;
+    height: 10vh;
+    background-color: #95999c;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lists ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 24px;
+    text-decoration: #1d2124;
+}
+.lists ul li a{
+    text-decoration-color: #1d2124;
+}
+.anchor1{
+    color: #1d2124;
+}
+.header h3{
+    margin-left: 20px;
+}
+.muslim-praying img {
+    height: 90vh;
+    width: 100%;
+    background-color: #1513ff;
+}
+.about-left{
+    display: flex;
+}
+.about-div h2 span{
+    color: #a71d2a;
+    font-size: 45px;
+    margin-top: 100px;
+}
+.about-div h2{
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    font-size: 45px;
+    margin-top: 100px;
+}
+.about-right{
+    border: white;
+    border-radius: 7px;
+    background-color: #f3f2e3;
+    margin: 25px;
+    padding: 25px;
+}
+.about-right h2 span{
+    color: #a71d2a;
+}
+.about-right h2{
+    margin: unset;
+}
+.about-right p{
+    font-size: 22px;
+}
+.about-right input{
+    font-size: 22px;
+    color: white;
+    background-color: #a71d2a;
+    padding: 5px;
+    border-radius: 5px
+}
+table{
+    width: 45%;
+    margin: unset;
+}
+.prayer-times{
+    display: flex;
+}
+.verse{
+    margin: 50px;
+    font-size: 35px;
+}
+.container{
+    margin-top: 15px;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.gallery-head{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.gallery-head h1 span{
+    color: #a71d2a;
+}
+.gallery-head h1{
+    color: #dc3545;
+}
+.images {
+    width: 27%;
+    display: flex;
+    margin-left: 145px;
+}
+.gallery .images .image1, .image2, .image3{
+    border-radius: 7px;
+    border-color: #abdde5;
+    margin: 10px;
+    background-color: #abdde5;
+    width: 100%;
+}
